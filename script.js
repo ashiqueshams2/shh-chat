@@ -1,12 +1,14 @@
 // Firebase Configuration (Replace with your Firebase project config)
 const firebaseConfig = {
-  apiKey: "AIzaSyBAXWKvlpwnzI9Lghj81d1_M1pIRbuM200",
+apiKey: "AIzaSyBAXWKvlpwnzI9Lghj81d1_M1pIRbuM200",
   authDomain: "shh-chat-db9d0.firebaseapp.com",
   databaseURL: "https://shh-chat-db9d0-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "shh-chat-db9d0",
   storageBucket: "shh-chat-db9d0.firebasestorage.app",
   messagingSenderId: "20040883450",
-  appId: "1:20040883450:web:833660405c634b2aaffd43" };
+  appId: "1:20040883450:web:94221ab8bee96be6affd43",
+  measurementId: "G-SD7DNW4XY6"
+};
 
 firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
